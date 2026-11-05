@@ -1,0 +1,13 @@
+[package]
+name = "raptorq-transfer"
+version = "0.1.0"
+edition = "2024"
+license = "MIT"
+
+[dependencies]
+raptorq = "2"
+xflags = "0.3"
+tokio = { version = "1", features = ["full"] }
+anyhow = "1"
+fastrand = "2"
+data-encoding = "2"
